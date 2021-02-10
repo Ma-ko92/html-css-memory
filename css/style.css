@@ -39,9 +39,8 @@ h1{
 }
 /* card text */
 .card-text{
-    color: orange;
+    color: #e23591;
     font-size: 22px;
     position:absolute;
     bottom: 2px;
-    
 }
