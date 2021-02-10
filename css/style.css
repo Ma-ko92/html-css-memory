@@ -16,8 +16,21 @@ body{
     margin: auto;
     text-align: center;
 }
-/* title */
+/* header and title */
 h1{
     font-size: 55px;
     color:white;
+}
+/* row */
+.row{
+    background-color: blueviolet;
+}
+.card{
+    background-color: cornflowerblue;
+    width:130px;
+    height:150px;
+    border: 1px solid black;
+    display: inline-block;
+    margin: 1%;
+    border-radius: 10px;
 }
