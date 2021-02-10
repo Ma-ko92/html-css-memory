@@ -4,4 +4,20 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+/* body */
+body{
+    background-color: #add8e6;
+    font-family: "nerko one", Arial, Helvetica, sans-serif;
+}
+/* container */
+.container{
+    background-color: aqua;
+    width: 1024px;
+    margin: auto;
+    text-align: center;
+}
+/* title */
+h1{
+    font-size: 55px;
+    color:white;
+}
