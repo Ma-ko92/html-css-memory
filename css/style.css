@@ -27,7 +27,8 @@ h1{
 }
 /* card */
 .card{
-    background-color: cornflowerblue;
+    background-image: url("../img/pattern.png");
+    background-size: contain;
     width:130px;
     height:150px;
     border: 1px solid black;
@@ -37,10 +38,21 @@ h1{
     padding: 20px;
     position: relative;
 }
+img{
+    display: none;
+}
+.card:hover{
+    background-image: none;
+}
+.card:hover img{
+    display: block;
+}
 /* card text */
 .card-text{
-    color: #e23591;
+    color: orange;
     font-size: 22px;
     position:absolute;
     bottom: 2px;
+    left:0;
+    width: 100%;
 }
