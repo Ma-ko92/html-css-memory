@@ -11,7 +11,7 @@ body{
 }
 /* container */
 .container{
-    background-color: aqua;
+    background-color:#add8e6;
     width: 1024px;
     margin: auto;
     text-align: center;
@@ -23,22 +23,26 @@ h1{
 }
 /* row */
 .row{
-    background-color: blueviolet;
+    background-color: #add8e6;
 }
 /* card */
 .card{
+    background-color: white;
     background-image: url("../img/pattern.png");
     background-size: contain;
     width:130px;
     height:150px;
-    border: 1px solid black;
     display: inline-block;
     margin: 1%;
     border-radius: 10px;
     padding: 20px;
     position: relative;
 }
+/* immage */
 img{
+    display: block;
+}
+.card img{
     display: none;
 }
 .card:hover{
@@ -55,4 +59,39 @@ img{
     bottom: 2px;
     left:0;
     width: 100%;
+    
+}
+.card span{
+    display: none;
+}
+
+.card:hover span{
+    display: inline-block;
+}
+/* card active */
+.card-active{
+    background-color: white;
+    width:130px;
+    height:150px;
+    display: inline-block;
+    margin: 1%;
+    border-radius: 10px;
+    padding: 20px;
+    position: relative;
+}
+/* text active */
+.card-text-active{
+    color: #e32d8e;
+    font-size: 22px;
+    position:absolute;
+    bottom: 2px;
+    left:0;
+    width: 100%;
+}
+.card-text-active:hover{
+    color:orange;
+}
+/* footer */
+.credit{
+    margin-top: 15px;
 }
